@@ -3,6 +3,7 @@
 
 <head>
     <title>Mehria Medical Society</title>
+    <link rel = "icon" href = "images/mehria.png" type = "image/x-icon"> 
     <meta charset="utf-8">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
     <link rel="stylesheet" href="css/uikit.min.css" />
@@ -35,7 +36,7 @@
 </head>
 
 <body>
-    <div class="uk-section uk-section-primary uk-padding" id="theme-bg-gradient">
+    <div class="uk-section uk-section-primary" style="padding: 2rem;" id="theme-bg-gradient">
         <div class="uk-container uk-container-medium">
             <img data-src="images/mehria.png" width="100" height="100" alt=""
                 style="margin-right: 2rem; background-color: rgba(10, 60, 40, 0.75);" uk-img>
@@ -49,31 +50,31 @@
         <nav class="uk-container uk-navbar uk-navbar-container" style="background-color:rgb(5, 50, 30);" uk-navbar>
             <div class="uk-navbar-left">
                 <ul class="uk-navbar-nav">
-                    <li><a href="#">
-                            <h4 class="theme-light-text">Home</h4>
+                    <li class = "uk-margin-remove-vertical"><a href="#">
+                            <h4 class = "uk-margin-remove-vertical" id="theme-light-text">Home</h4>
                         </a></li>
-                    <li><a href="#">
-                            <h4 class="theme-light-text">About</h4>
+                    <li class = "uk-margin-remove-vertical"><a href="#">
+                            <h4 class = "uk-margin-remove-vertical" id="theme-light-text">About</h4>
                         </a></li>
-                    <li><a href="#">
-                            <h4 class="theme-light-text">Contact</h4>
+                    <li class = "uk-margin-remove-vertical"><a href="#">
+                            <h4 class = "uk-margin-remove-vertical" id="theme-light-text">Mission</h4>
+                        </a></li>
+                    <li class = "uk-margin-remove-vertical"><a href="#">
+                            <h4 class = "uk-margin-remove-vertical" id="theme-light-text">Contact</h4>
                         </a></li>
                 </ul>
             </div>
             <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav">
-                            <li><a href="#">
-                                    <h4 class="theme-light-text">Register</h4>
-                                </a></li>
-                            <li><a href="#">
-                                    <h4 class="theme-light-text">Login</h4>
+                            <li class = "uk-margin-remove-vertical" style="background-color:rgb(255, 255, 255);"><a href="#">
+                                    <h4 class = "uk-margin-remove-vertical" id="theme-heavy-text">Register as a Participant</h4>
                                 </a></li>
                         </ul>
             </div>
         </nav>
     </div>
 
-    <div class="uk-section uk-section-secondary uk-background-cover uk-height-large uk-background-fixed" style="margin-bottom: -6rem; background-image: linear-gradient(to bottom right, rgb(10, 100, 40), rgb(255, 100, 100)),url(https://media.defense.gov/2016/Jun/10/2001552379/780/780/0/160610-F-GF928-018.JPG);
+    <div class="uk-section uk-section-secondary uk-background-cover uk-height-large uk-background-fixed" style="background-image: linear-gradient(to bottom right, rgb(10, 100, 40), rgb(255, 100, 100)),url(https://media.defense.gov/2016/Jun/10/2001552379/780/780/0/160610-F-GF928-018.JPG);
         background-blend-mode: overlay;">
 
         <h2 class="uk-heading-line uk-text-center" id="theme-light-text"><span>Help our cause!</span></h2>
@@ -85,33 +86,22 @@
 
     </div>
 
-    <div class="uk-section uk-section-primary" id="theme-bg-alt-gradient">
-        <div class="uk-padding-large uk-padding-remove-vertical uk-grid uk-child-width-1-2">
-
-            <div class="uk-card uk-card-large uk-grid-collapse uk-child-width-1-2@s" uk-grid>
-                <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                    <img src="images/dr1.jpeg" alt="" uk-cover>
-                    <canvas width="50" height="50"></canvas>
-                </div>
-                <div>
-                    <div class="uk-card-body">
-                        <h2 class="uk-card-title" id="theme-light-text">Dr. Chaudhary Ghulam Murtaza</h2>
-                        <p id="theme-light-text">Visionary and Founder of Mehria Medical Society</p>
-                    </div>
-                </div>
+    <div class="uk-section uk-section-primary uk-padding-remove-vertical" id="theme-bg-alt-gradient">
+        <div class="uk-padding-large uk-padding-remove-vertical uk-grid uk-grid-large uk-grid-match uk-child-width-expand">
+            <div class="uk-width-1-5"></div>
+            <div><img data-src="images/dr1.jpeg" alt="" uk-img>
+                <h4 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove-vertical" id="theme-heavy-text"
+                    style="background-color: rgb(255, 255, 255);">Chaudhary Ghulam Murtaza Gujjar</h4>
+                <p class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove-vertical" id="theme-heavy-text"
+                style="background-color: rgb(140, 200, 170);">Visionary, Person who started Mehria Medical Society</p>
             </div>
-            <div class="uk-card uk-card-large uk-grid-collapse uk-child-width-1-2@s" uk-grid>
-                <div class="uk-card-media-left uk-cover-container">
-                    <img src="images/dr5.jpg" alt="" uk-cover>
-                    <canvas width="50" height="50"></canvas>
-                </div>
-                <div>
-                    <div class="uk-card-body">
-                        <h2 class="uk-card-title" id="theme-light-text">Dr. Bilal Ahmad Cheema</h2>
-                        <p id="theme-light-text">IT and Data Manager</p>
-                    </div>
-                </div>
+            <div><img data-src="images/dr5.jpg" alt="" uk-img>
+                <h4 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove-vertical" id="theme-heavy-text"
+                    style="background-color: rgb(255, 255, 255);">Bilal Ahmad Cheema</h4>
+                <p class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove-vertical" id="theme-heavy-text"
+                style="background-color: rgb(140, 200, 170);">IT Professional, Web Developer</p>
             </div>
+            <div class="uk-width-1-5"></div>
         </div>
     </div>
 
@@ -157,7 +147,7 @@
                 <p>Nazakat Sultan</p>
             </div>
         </div>
-        <a class="uk-align-center uk-margin uk-button uk-button-text uk-button-large" href="#"
+        <a class="uk-align-center uk-margin uk-button uk-button-text uk-button-large" href="https://docs.google.com/forms/d/e/1FAIpQLSfLlJ7ZoKiVyrvEIKqIn2dIE2toxh9Ve09eWZ1gkit-O0ypxA/viewform?usp=sf_link"
             style="padding:1rem; background-color:rgba(70, 0, 0, 0.5);">Apply for Executive</a>
     </div>
 
@@ -165,11 +155,13 @@
         <div class="uk-padding-large uk-padding-remove-bottom uk-grid uk-child-width-1-4">
             <div>
                 <ul class="uk-nav">
-                    <li><a href="#" class="theme-light-text">Home
+                    <li><a href="#" id="theme-light-text">Home
                         </a></li>
-                    <li><a href="#" class="theme-light-text">About
+                    <li><a href="#" id="theme-light-text">About
                         </a></li>
-                    <li><a href="#" class="theme-light-text">Contact
+                    <li><a href="#" id="theme-light-text">Mission
+                        </a></li>
+                    <li><a href="#" id="theme-light-text">Contact
                         </a></li>
                 </ul>
             </div>
@@ -177,9 +169,7 @@
             <div></div>
             <div class="uk-divider-vertical">
                     <ul class="uk-nav">
-                        <li><a href="#" class="theme-light-text">Register
-                            </a></li>
-                        <li><a href="#" class="theme-light-text">Login
+                        <li><a href="#" id="theme-light-text">Register as a Participant
                             </a></li>
                     </ul>
                 </div>
