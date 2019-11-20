@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mehria Medical Society</title>
+    <link rel="icon" href="images/mehria.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <style>
+        #theme-bg-gradient {
+            background-image: linear-gradient(to bottom right, rgb(40, 220, 140), rgb(75, 230, 220));
+        }
+
+        #theme-bg-alt-gradient {
+            background-image: linear-gradient(to bottom right, rgb(5, 50, 30), rgb(0, 0, 0));
+        }
+
+        #theme-heavy-text {
+            font-weight: 700;
+            color: rgb(10, 60, 50);
+        }
+
+        #theme-light-text {
+            color: rgb(190, 255, 235);
+        }
+
+        h4 {
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+        }
+
+        #square-pic {
+            max-width: 200px;
+            max-height: 200px;
+            width: auto;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="uk-section uk-section-primary" style="padding: 2rem;" id="theme-bg-gradient">
+        <div class="uk-container uk-container-medium">
+            <img data-src="images/mehria.png" width="100" height="100" alt=""
+                style="margin-right: 2rem; background-color: rgba(10, 60, 40, 0.75);" uk-img>
+            <h1 class="uk-heading-small" id="theme-heavy-text" style="display: inline;">Mehria Medical Society Pakistan
+            </h1>
+        </div>
+    </div>
+
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky"
+        style="background-color:rgb(5, 50, 30);">
+        <nav class="uk-container uk-navbar uk-navbar-container" style="background-color:rgb(5, 50, 30);" uk-navbar>
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-margin-remove-vertical"><a href="index.html">
+                            <h4 class="uk-margin-remove-vertical" id="theme-light-text">Home</h4>
+                        </a></li>
+                    <li class="uk-margin-remove-vertical"><a href="about.html">
+                            <h4 class="uk-margin-remove-vertical" id="theme-light-text">About</h4>
+                        </a></li>
+                    <li class="uk-margin-remove-vertical" style="background-color:rgba(255, 255, 255, 0.9);"><a href="gallery.html">
+                            <h4 class="uk-margin-remove-vertical" id="theme-heavy-text">Gallery</h4>
+                        </a></li>
+                    <li class="uk-margin-remove-vertical"><a href="contact.html">
+                            <h4 class="uk-margin-remove-vertical" id="theme-light-text">Contact</h4>
+                        </a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--MAKE SECTIONS HERE-->
+
+    <div class="uk-section uk-section-primary uk-padding-remove-bottom" id="theme-bg-alt-gradient">
+        <div class="uk-padding-large uk-padding-remove-bottom uk-grid uk-child-width-1-4" style="padding-top: 0rem;">
+            <div>
+                <ul class="uk-nav">
+                    <li><a href="index.html" id="theme-light-text">Home
+                        </a></li>
+                    <li><a href="about.html" id="theme-light-text">About
+                        </a></li>
+                    <li><a href="gallery.html" id="theme-light-text">Gallery
+                        </a></li>
+                    <li><a href="contact.html" id="theme-light-text">Contact
+                        </a></li>
+                </ul>
+            </div>
+            <div></div>
+            <div></div>
+            <div class="uk-divider-vertical">
+                <ul class="uk-nav">
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfLlJ7ZoKiVyrvEIKqIn2dIE2toxh9Ve09eWZ1gkit-O0ypxA/viewform?usp=sf_link"
+                            id="theme-light-text">Register as a Participant
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <h4 class="uk-align-center uk-text-center uk-padding-large uk-padding-remove-vertical uk-margin-remove-bottom">
+            All Rights Reserved. &copy; 2019-2020 Mehria Medical Society Pakistan</h4>
+    </div>
+
+</body>
+
+</html>
