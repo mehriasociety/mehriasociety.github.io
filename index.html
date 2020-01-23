@@ -2,262 +2,295 @@
 <html>
 
 <head>
-    <title>Mehria Medical Society</title>
-    <link rel="icon" href="images/mehria.png" type="image/x-icon">
-    <meta charset="utf-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
+  <title>Mehria Medical Society</title>
+  <link rel="icon" href="images/mehria.png" type="image/x-icon">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+  <style>
+    #theme-bg-gradient {
+      background-image: linear-gradient(to bottom right, rgb(40, 220, 140), rgb(75, 230, 220));
+    }
 
-    <style>
-        #theme-bg-gradient {
-            background-image: linear-gradient(to bottom right, rgb(40, 220, 140), rgb(75, 230, 220));
-        }
+    #theme-bg-alt-gradient {
+      background-image: linear-gradient(to bottom right, rgb(5, 50, 30), rgb(0, 0, 0));
+    }
 
-        #theme-bg-alt-gradient {
-            background-image: linear-gradient(to bottom right, rgb(5, 50, 30), rgb(0, 0, 0));
-        }
+    #theme-bg-alt2-gradient {
+      background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(190, 255, 245));
+    }
 
-        #theme-bg-alt2-gradient {
-            background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(175, 255, 240));
-        }
+    #theme-heavy-text {
+      font-weight: 700;
+      color: rgb(10, 60, 50);
+    }
 
-        #theme-heavy-text {
-            font-weight: 700;
-            color: rgb(10, 60, 50);
-        }
+    #theme-light-text {
+      color: rgb(190, 255, 235);
+    }
 
-        #theme-light-text {
-            color: rgb(190, 255, 235);
-        }
+    h4 {
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+    }
 
-        h4 {
-            color: rgb(255, 255, 255);
-            font-weight: 600;
-        }
+    #square-pic {
+      max-width: 24vw;
+      max-height: 24vw;
+      width: auto;
+      height: auto;
+    }
 
-        #square-pic {
-            max-width: 200px;
-            max-height: 200px;
-            width: auto;
-            height: auto;
-        }
-    </style>
+    .responsiveFontSize_3 {
+      font-size: 1.15vw;
+    }
+
+    .responsiveFontSize_4 {
+      font-size: 1.3vw;
+    }
+
+    .responsiveFontSize_5 {
+      font-size: 2vw;
+    }
+
+    .responsiveFontSize_6 {
+      font-size: 2vw;
+    }
+
+    .responsiveFontSize_7 {
+      font-size: 3vw;
+    }
+
+    .responsiveFontSize_8 {
+      font-size: 3.5vw;
+    }
+
+    .responsiveFontSize_9 {
+      font-size: 4vw;
+    }
+
+    .responsiveFontSize_10 {
+      font-size: 4.5vw;
+    }
+
+    @media only screen and (max-device-width: 640px) {
+      .responsiveFontSize_3 {
+        font-size: 3vw;
+      }
+
+      .responsiveFontSize_4 {
+        font-size: 4vw;
+      }
+
+      .responsiveFontSize_5 {
+        font-size: 5vw;
+      }
+
+      .responsiveFontSize_6 {
+        font-size: 6vw;
+      }
+
+      .responsiveFontSize_7 {
+        font-size: 7vw;
+      }
+
+      .responsiveFontSize_8 {
+        font-size: 8vw;
+      }
+
+      .responsiveFontSize_9 {
+        font-size: 9vw;
+      }
+
+      .responsiveFontSize_10 {
+        font-size: 10vw;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <div class="uk-section uk-section-primary" style="padding: 2rem;" id="theme-bg-gradient">
-        <div class="uk-container uk-container-medium">
-            <img data-src="images/mehria.png" width="100" height="100" alt=""
-                style="margin-right: 2rem; background-color: rgba(10, 60, 40, 0.75);" uk-img>
-            <h1 class="uk-heading-small" id="theme-heavy-text" style="display: inline;">Mehria Medical Society Pakistan
-            </h1>
-        </div>
+  <div class="uk-section uk-section-primary" style="padding: 4vw;" id="theme-bg-gradient">
+    <div class="uk-container uk-container-medium">
+      <img data-src="images/mehria.png" alt="" style="width:14vw; height:14vw; margin-right:2vw; background-color: rgba(10, 60, 40, 0.75);" uk-img>
+      <h1 class="uk-heading-small responsiveFontSize_7" id="theme-heavy-text" style="display: inline;">Mehria Medical Society Pakistan
+      </h1>
     </div>
-
-    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky"
-        style="background-color:rgb(5, 50, 30);">
-        <nav class="uk-container uk-navbar uk-navbar-container" style="background-color:rgb(5, 50, 30);" uk-navbar>
-            <div class="uk-navbar-left">
-                <ul class="uk-navbar-nav">
-                    <li class="uk-margin-remove-vertical" style="background-color:rgba(255, 255, 255, 0.9);"><a
-                            href="index.html">
-                            <h4 class="uk-margin-remove-vertical" id="theme-heavy-text">Home</h4>
-                        </a></li>
-                    <li class="uk-margin-remove-vertical"><a href="about.html">
-                            <h4 class="uk-margin-remove-vertical" id="theme-light-text">About</h4>
-                        </a></li>
-                    <!--
+  </div>
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" style="padding:0; margin:0; background-color:rgb(5, 50, 30);">
+    <nav class="uk-container uk-navbar uk-navbar-container uk-margin-remove-vertical uk-padding-remove-vertical" style="background-color:rgb(5, 50, 30);" uk-navbar>
+      <div class="uk-navbar-left uk-margin-remove-vertical uk-padding-remove-vertical">
+        <ul class="uk-navbar-nav uk-margin-remove-vertical uk-padding-remove-vertical">
+          <li class="uk-margin-remove-vertical uk-padding-remove-vertical" style="background-color:rgba(255, 255, 255, 0.9);"><a href="index.html">
+              <h5 class="uk-margin-remove-vertical uk-padding-remove-vertical responsiveFontSize_4" id="theme-heavy-text" style="line-height:0;">Home</h5>
+            </a></li>
+          <li class="uk-margin-remove-vertical uk-padding-remove-vertical"><a href="about.html">
+              <h5 class="uk-margin-remove-vertical uk-padding-remove-vertical responsiveFontSize_4" id="theme-light-text" style="line-height:0;">About</h5>
+            </a></li>
+          <!--
                     <li class="uk-margin-remove-vertical"><a href="gallery.html">
-                            <h4 class="uk-margin-remove-vertical" id="theme-light-text">Gallery</h4>
+                            <p class="uk-margin-remove-vertical responsiveFontSize_4" id="theme-light-text">Gallery</p>
                         </a></li>
                     -->
-                    <li class="uk-margin-remove-vertical"><a href="contact.html">
-                            <h4 class="uk-margin-remove-vertical" id="theme-light-text">Contact</h4>
-                        </a></li>
-                </ul>
-            </div>
-
-            <div class="uk-navbar-right">
-                <ul class="uk-navbar-nav">
-                    <li class="uk-margin-remove-vertical"><a
-                            href="https://www.facebook.com/mehriasociety">
-                            <h4 class="uk-margin-remove-vertical" id="theme-light-text">Facebook</h4>
-                        </a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-
-    <div class="uk-section uk-background-cover uk-height-large uk-background-fixed" style="background-image: linear-gradient(to bottom right, rgba(0, 60, 20, 0.7), rgba(100, 10, 10, 0.7)),url(https://media.defense.gov/2016/Jun/10/2001552379/780/780/0/160610-F-GF928-018.JPG);
+          <li class="uk-margin-remove-vertical uk-padding-remove-vertical"><a href="contact.html">
+              <h5 class="uk-margin-remove-vertical uk-padding-remove-vertical responsiveFontSize_4" style="line-height:0;" id="theme-light-text">Contact</h5>
+            </a></li>
+        </ul>
+      </div>
+      <div class="uk-navbar-right uk-margin-remove-vertical uk-padding-remove-vertical">
+        <ul class="uk-navbar-nav uk-margin-remove-vertical uk-padding-remove-vertical">
+          <li class="uk-margin-remove-vertical uk-padding-remove-vertical"><a href="https://www.facebook.com/mehriasociety">
+              <h5 class="uk-margin-remove-vertical uk-padding-remove-vertical responsiveFontSize_4" style="line-height:0;" id="theme-light-text">Facebook</h5>
+            </a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="uk-section uk-background-cover uk-height-large uk-background-fixed" style="background-image: linear-gradient(to bottom right, rgba(0, 60, 20, 0.7), rgba(100, 10, 10, 0.7)),url(https://media.defense.gov/2016/Jun/10/2001552379/780/780/0/160610-F-GF928-018.JPG);
         background-blend-mode: normal;">
-
-        <h1 class="uk-heading-line uk-text-center" id="theme-light-text"><span>Help our cause by donating funds!</span></h1>
-        <h1 class="uk-heading-line uk-text-center" id="theme-light-text"><span>We set medical camps in remote areas to help needy people.</span></h1>
-		<h1 class="uk-heading-line uk-text-center" id="theme-light-text"><span>We appreciate every single rupee that you have donated.</span></h1>
-        <a class="uk-align-center uk-margin uk-button uk-button-text uk-button-large"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfLlJ7ZoKiVyrvEIKqIn2dIE2toxh9Ve09eWZ1gkit-O0ypxA/viewform?usp=sf_link"
-            style="margin: 18rem; padding:1.8rem; padding-bottom:1rem;" id="theme-bg-alt2-gradient">
-            <h2 style="font-weight: 700; color: rgb(255, 0, 50);">DONATE FUNDS</h2>
-        </a>
+    <h1 class="uk-heading-line uk-text-center responsiveFontSize_6" id="theme-light-text"><span>Help our cause by donating funds!</span></h1>
+    <h1 class="uk-heading-line uk-text-center responsiveFontSize_6" id="theme-light-text"><span>We set medical camps in remote areas to help needy people.</span></h1>
+    <h1 class="uk-heading-line uk-text-center responsiveFontSize_6" id="theme-light-text"><span>We appreciate every single rupee that you have donated.</span></h1>
+    <a class="uk-align-center uk-margin uk-button uk-button-text uk-button-large" href="https://docs.google.com/forms/d/e/1FAIpQLSfLlJ7ZoKiVyrvEIKqIn2dIE2toxh9Ve09eWZ1gkit-O0ypxA/viewform?usp=sf_link" style="margin:6vw;" id="theme-bg-alt2-gradient">
+      <h2 class="responsiveFontSize_6" style="font-weight: 700; color: rgb(255, 0, 50); line-height:2.6;">DONATE FUNDS</h2>
+    </a>
+  </div>
+  <div class="uk-section uk-section-primary uk-padding-remove-vertical" id="theme-bg-alt-gradient">
+    <div class="uk-padding-large uk-padding-remove-vertical uk-grid uk-grid-match uk-child-width-expand">
+      <div class="uk-width-2-6" style="width:24vw;"><img data-src="images/dr1.jpeg" id="square-pic" alt="" uk-img>
+        <h4 class="uk-padding-remove-vertical uk-margin-remove-vertical responsiveFontSize_3">Chaudhary Ghulam Murtaza Gujjar</h4>
+      </div>
+      <div class="uk-text-lead" id="theme-heavy-text" style="text-align:justify; padding: 3vw; background-color: rgb(255, 255, 255);">
+        <h3 class="uk-text-left uk-padding-remove uk-margin-remove"><em class="uk-padding-remove uk-margin-remove responsiveFontSize_4" id="theme-heavy-text">Message from the Director</em>
+        </h3>
+        <p class="uk-margin-remove-bottom responsiveFontSize_3">If you are looking for soul comfort, then try to seek the pleasure of
+          Allah Almighty. And here is the way to seek the pleasure of Allah.</p>
+        <h3 class="responsiveFontSize_3" style="background-color: rgba(0, 0, 0, 0.1); padding: 1vw; padding-left: 2vw; margin: 0;"><em id="theme-heavy-text">"Service of humankind is the best source to seek the pleasure of Allah
+            Almighty."</em></h3>
+        <p class="uk-margin-remove-top responsiveFontSize_3">Your participation and support is all that Mehria Medical Society
+          demands.</p>
+      </div>
     </div>
-
-    <div class="uk-section uk-section-primary uk-padding-remove-vertical" id="theme-bg-alt-gradient">
-        <div class="uk-padding-large uk-padding-remove-vertical uk-grid uk-grid-match uk-child-width-expand">
-            <div class="uk-width-1-5"><img data-src="images/dr1.jpeg" alt="" id="square-pic" uk-img>
-                <h4 class="uk-padding-remove-vertical uk-margin-remove-vertical">Chaudhary Ghulam Murtaza Gujjar</h4>
-            </div>
-            <div class="uk-text-lead" id="theme-heavy-text"
-                style="text-align:justify; padding: 3rem; background-color: rgb(255, 255, 255);">
-                <h3 class="uk-text-left uk-padding-remove uk-margin-remove"><em
-                        class="uk-padding-remove uk-margin-remove" id="theme-heavy-text">Message from the Director</em>
-                </h3>
-                <p class="uk-margin-remove-bottom">If you are looking for soul comfort, then try to seek the pleasure of
-                    Allah Almighty. And here is the way to seek the pleasure of Allah.</p>
-                <h3 style="background-color: rgba(0, 0, 0, 0.1); padding: 1rem; padding-left: 2rem; margin: 0;"><em
-                        id="theme-heavy-text">"Service of humankind is the best source to seek the pleasure of Allah
-                        Almighty."</em></h3>
-                <p class="uk-margin-remove-top">Your participation and support is all that Mehria Medical Society
-                    demands.</p>
-            </div>
+  </div>
+  <div class="uk-section uk-section-secondary uk-background-cover uk-background-fixed" style="background-image: linear-gradient(to bottom right, rgba(0, 60, 20, 0.7), rgba(100, 10, 10, 0.7)),url(https://torange.biz/photo/19/IMAGE/doctors-medicine-advice-19725.jpg);
+        background-blend-mode: normal;">
+    <ul class="uk-subnav uk-flex-center uk-subnav-pill" uk-switcher="connect: .board">
+      <li><a class="uk-padding-remove" href="#">
+          <h3 class="responsiveFontSize_4" style="background-color:rgba(255, 255, 255, 0.4); padding: 1vw" id="theme-heavy-text">- MEDICAL BOARD</h3>
+        </a></li>
+      <li><a class="uk-padding-remove" href="#">
+          <h3 class="responsiveFontSize_4" style="background-color:rgba(255, 255, 255, 0.4); padding: 1vw;" id="theme-heavy-text">- SOCIETY BOARD</h3>
+        </a></li>
+    </ul>
+    <ul class="uk-switcher uk-margin board">
+      <li>
+        <div class="uk-margin-large uk-margin-remove-vertical uk-width-4-5 uk-align-center" style="padding: 3vw;" id="theme-bg-alt2-gradient">
+          <!--<h2 class="uk-card-title" id="theme-heavy-text">MEDICAL BOARD</h2>-->
+          <p class="responsiveFontSize_3" id="theme-heavy-text">Our doctors including General Physicians and Specialists who have amazing
+            skills and are playing their roles in medical camps for the service of humankind.</p>
         </div>
-    </div>
-
-    <div class="uk-section uk-section-secondary uk-background-cover uk-background-fixed" style="background-image: linear-gradient(to bottom right, rgba(0, 60, 20, 0.7), rgba(100, 10, 10, 0.7)),url(https://torange.biz/photo/19/IMAGE/doctors-medicine-advice-19725.jpg);
-        background-blend-mode: normal;">
-        <ul class="uk-subnav uk-flex-center uk-subnav-pill" uk-switcher="connect: .board">
-            <li><a class="uk-padding-remove" href="#">
-                    <h3 style="background-color:rgba(255, 255, 255, 0.4); padding: 0.5rem;" id="theme-heavy-text">- MEDICAL BOARD</h3>
-                </a></li>
-            <li><a class="uk-padding-remove" href="#">
-                    <h3 style="background-color:rgba(255, 255, 255, 0.4); padding: 0.5rem;" id="theme-heavy-text">- SOCIETY BOARD</h3>
-                </a></li>
-        </ul>
-
-        <ul class="uk-switcher uk-margin board">
-            <li>
-                <div class="uk-margin-large uk-margin-remove-vertical uk-width-4-5 uk-align-center"
-                    style="padding: 1rem;" id="theme-bg-alt2-gradient">
-                    <!--<h2 class="uk-card-title" id="theme-heavy-text">MEDICAL BOARD</h2>-->
-                    <p id="theme-heavy-text">Our doctors including General Physicians and Specialists who have amazing
-                        skills and are playing their roles in medical camps for the service of humankind.</p>
-                </div>
-            </li>
-            <li>
-                <div class="uk-margin-large uk-margin-remove-vertical uk-width-4-5 uk-align-center"
-                    style="padding: 1rem;" id="theme-bg-alt2-gradient">
-                    <!--<h2 class="uk-card-title" id="theme-heavy-text">SOCIETY BOARD</h2>-->
-                    <p id="theme-heavy-text">The "Society Board" of Mehria Medical Society consists of five members, who
-                        are providing their time to the society and have a sincere role in the development of this
-                        society.</p>
-                </div>
-            </li>
-        </ul>
-
-        <ul class="uk-switcher uk-margin board">
-            <li>
-                <div class="uk-padding-remove uk-grid uk-grid-collapse uk-flex-center uk-child-width-1-6">
-                    <div><img data-src="images/dr2.jpeg" width="1800" height="1200" alt="" uk-img>
-                        <h5 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove"
-                            style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
-                            Dr.
-                            Hammad Raziq</h5>
-                    </div>
-                    <div><img data-src="images/dr3.jpeg" width="1800" height="1200" alt="" uk-img>
-                        <h5 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove"
-                            style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
-                            Dr.
-                            Mohsin Yousuf</h5>
-                    </div>
-                    <div><img data-src="images/dr8.jpeg" width="1800" height="1200" alt="" uk-img>
-                        <h5 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove"
-                            style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
-                            Dr.
-                            Nasar Abbas</h5>
-                    </div>
-                    <div><img data-src="images/dr4.jpeg" width="1800" height="1200" alt="" uk-img>
-                        <h5 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove"
-                            style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
-                            Dr.
-                            Athar Abdullah</h5>
-                    </div>
-                    <div><img data-src="images/dr6.jpeg" width="1800" height="1200" alt="" uk-img>
-                        <h5 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove"
-                            style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
-                            Dr.
-                            Ahmed Bilal Malik</h5>
-                    </div>
-                    <div><img data-src="images/dr7.jpeg" width="1800" height="1200" alt="" uk-img>
-                        <h5 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove"
-                            style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
-                            Dr.
-                            Syed Jamal Nasir</h5>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="uk-padding-remove uk-grid uk-grid-collapse uk-flex-center uk-child-width-1-6">
-                    <div><img data-src="images/dr5.jpeg" width="1800" height="1200" alt="" uk-img>
-                        <h5 class="uk-card-secondary uk-card-body uk-margin-remove uk-padding-small"
-                            style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
-                            Bilal A. Cheema</h5>
-                    </div>
-                    <div><img data-src="images/dr9.jpeg" width="1800" height="1200" alt="" uk-img>
-                        <h5 class="uk-card-secondary uk-card-body uk-margin-remove uk-padding-small"
-                            style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
-                            Atta Ur Rehman</h5>
-                    </div>
-                    <div><img data-src="images/dr10.jpeg" width="1800" height="1200" alt="" uk-img>
-                        <h5 class="uk-card-secondary uk-card-body uk-margin-remove uk-padding-small"
-                            style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
-                            Shafeh Shehzad</h5>
-                    </div>
-                    <div><img data-src="images/dr11.jpeg" width="1800" height="1200" alt="" uk-img>
-                        <h5 class="uk-card-secondary uk-card-body uk-margin-remove uk-padding-small"
-                            style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
-                            Syed Musa Haider</h5>
-                    </div>
-                    <div><img data-src="images/dr12.jpeg" width="1800" height="1200" alt="" uk-img>
-                        <h5 class="uk-card-secondary uk-card-body uk-margin-remove uk-padding-small"
-                            style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
-                            Muhammad Usman Haseeb</h5>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-
-    <div class="uk-section uk-section-primary uk-padding-remove-bottom" id="theme-bg-alt-gradient">
-        <div class="uk-padding-large uk-padding-remove-bottom uk-grid uk-child-width-1-4" style="padding-top: 0rem;">
-            <div>
-                <ul class="uk-nav">
-                    <li><a href="index.html" id="theme-light-text">Home
-                        </a></li>
-                    <li><a href="about.html" id="theme-light-text">About
-                        </a></li>
-                    <!--
+      </li>
+      <li>
+        <div class="uk-margin-large uk-margin-remove-vertical uk-width-4-5 uk-align-center" style="padding: 3vw;" id="theme-bg-alt2-gradient">
+          <!--<h2 class="uk-card-title" id="theme-heavy-text">SOCIETY BOARD</h2>-->
+          <p class="responsiveFontSize_3" id="theme-heavy-text">The "Society Board" of Mehria Medical Society consists of five members, who
+            are providing their time to the society and have a sincere role in the development of this
+            society.</p>
+        </div>
+      </li>
+    </ul>
+    <ul class="uk-switcher uk-margin board">
+      <li>
+        <div class="uk-padding-remove uk-grid uk-grid-collapse uk-flex-center uk-child-width-1-6">
+          <div><img data-src="images/dr2.jpeg" width="1800" height="1200" alt="" uk-img>
+            <h5 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove responsiveFontSize_3" style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
+              Dr.
+              Hammad Raziq</h5>
+          </div>
+          <div><img data-src="images/dr3.jpeg" width="1800" height="1200" alt="" uk-img>
+            <h5 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove responsiveFontSize_3" style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
+              Dr.
+              Mohsin Yousuf</h5>
+          </div>
+          <div><img data-src="images/dr8.jpeg" width="1800" height="1200" alt="" uk-img>
+            <h5 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove responsiveFontSize_3" style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
+              Dr.
+              Nasar Abbas</h5>
+          </div>
+          <div><img data-src="images/dr4.jpeg" width="1800" height="1200" alt="" uk-img>
+            <h5 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove responsiveFontSize_3" style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
+              Dr.
+              Athar Abdullah</h5>
+          </div>
+          <div><img data-src="images/dr6.jpeg" width="1800" height="1200" alt="" uk-img>
+            <h5 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove responsiveFontSize_3" style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
+              Dr.
+              Ahmed Bilal Malik</h5>
+          </div>
+          <div><img data-src="images/dr7.jpeg" width="1800" height="1200" alt="" uk-img>
+            <h5 class="uk-card-secondary uk-card-body uk-padding-small uk-margin-remove responsiveFontSize_3" style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
+              Dr.
+              Syed Jamal Nasir</h5>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="uk-padding-remove uk-grid uk-grid-collapse uk-flex-center uk-child-width-1-6">
+          <div><img data-src="images/dr5.jpeg" width="1800" height="1200" alt="" uk-img>
+            <h5 class="uk-card-secondary uk-card-body uk-margin-remove uk-padding-small responsiveFontSize_3" style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
+              Bilal A. Cheema</h5>
+          </div>
+          <div><img data-src="images/dr9.jpeg" width="1800" height="1200" alt="" uk-img>
+            <h5 class="uk-card-secondary uk-card-body uk-margin-remove uk-padding-small responsiveFontSize_3" style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
+              Atta Ur Rehman</h5>
+          </div>
+          <div><img data-src="images/dr10.jpeg" width="1800" height="1200" alt="" uk-img>
+            <h5 class="uk-card-secondary uk-card-body uk-margin-remove uk-padding-small responsiveFontSize_3" style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
+              Shafeh Shehzad</h5>
+          </div>
+          <div><img data-src="images/dr11.jpeg" width="1800" height="1200" alt="" uk-img>
+            <h5 class="uk-card-secondary uk-card-body uk-margin-remove uk-padding-small responsiveFontSize_3" style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
+              Syed Musa Haider</h5>
+          </div>
+          <div><img data-src="images/dr12.jpeg" width="1800" height="1200" alt="" uk-img>
+            <h5 class="uk-card-secondary uk-card-body uk-margin-remove uk-padding-small responsiveFontSize_3" style="background-image: linear-gradient(to bottom right, rgb(15, 165, 90), rgb(15, 140, 130));">
+              M. Usman Haseeb</h5>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="uk-section uk-section-primary uk-padding-remove-bottom" id="theme-bg-alt-gradient">
+    <div class="uk-padding-large uk-padding-remove-bottom uk-grid uk-child-width-1-4" style="padding-top: 0;">
+      <div>
+        <ul class="uk-nav">
+          <li class="responsiveFontSize_3"><a href="index.html" id="theme-light-text">Home
+            </a></li>
+          <li class="responsiveFontSize_3"><a href="about.html" id="theme-light-text">About
+            </a></li>
+          <!--
                     <li><a href="gallery.html" id="theme-light-text">Gallery
                         </a></li>
                     -->
-                    <li><a href="contact.html" id="theme-light-text">Contact
-                        </a></li>
-                </ul>
-            </div>
-            <div></div>
-            <div></div>
-            <div class="uk-divider-vertical">
-                <ul class="uk-nav">
-                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfLlJ7ZoKiVyrvEIKqIn2dIE2toxh9Ve09eWZ1gkit-O0ypxA/viewform?usp=sf_link"
-                            id="theme-light-text">Register as a Participant
-                        </a></li>
-                </ul>
-            </div>
-        </div>
-        <h4 class="uk-align-center uk-text-center uk-padding-large uk-padding-remove-vertical uk-margin-remove-bottom">
-            All Rights Reserved. &copy; 2019-2020 Mehria Medical Society Pakistan</h4>
+          <li class="responsiveFontSize_3"><a href="contact.html" id="theme-light-text">Contact
+            </a></li>
+        </ul>
+      </div>
+      <div></div>
+      <div></div>
+      <div class="uk-divider-vertical">
+        <ul class="uk-nav">
+          <li class="responsiveFontSize_3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfLlJ7ZoKiVyrvEIKqIn2dIE2toxh9Ve09eWZ1gkit-O0ypxA/viewform?usp=sf_link" id="theme-light-text">Donate Funds
+            </a></li>
+        </ul>
+      </div>
     </div>
-
+    <h5 class="uk-align-center uk-text-center uk-padding-large uk-padding-remove-vertical uk-margin-remove-bottom responsiveFontSize_3">
+      All Rights Reserved. &copy; 2019-2020 Mehria Medical Society Pakistan</h5>
+  </div>
 </body>
 
 </html>
