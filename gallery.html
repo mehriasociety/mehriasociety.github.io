@@ -39,6 +39,19 @@
       font-weight: 600;
     }
 
+    #socialGalleryPerRowSize {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 44vw;
+      height: 52vw;
+    }
+
+    #socialFrameSize {
+      width: 90vw;
+      height: 120vw;
+    }
+
     #logoDisplay {
       width:8vw;
       height:8vw;
@@ -89,6 +102,19 @@
     }
 
     @media only screen and (max-device-width: 640px) {
+
+      #socialGalleryPerRowSize {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90vw;
+      height: 230vw;
+    }
+      
+      #socialFrameSize {
+        width: 400;
+        height: 516;
+      }
 
       #logoDisplay {
         width:14vw;
@@ -143,7 +169,7 @@
 </head>
 
 <body>
-  <div class="uk-section uk-section-primary" style="padding: 3vw;" id="theme-bg-gradient">
+  <div class="uk-section uk-section-primary" style="padding: 3vw; background-image: linear-gradient(to bottom right, rgba(40, 220, 140, 0.95), rgba(75, 230, 220, 0.75)), url(images/camp_1/c1.jpeg); background-size: cover;">
     <div class="uk-container uk-container-medium">
       <img data-src="images/mehria.png" alt="" id="logoDisplay" style="background-color: rgba(10, 60, 40, 0.75);" uk-img>
       <h1 class="uk-heading-small responsiveFontSize_7" id="theme-heavy-text" style="display: inline;">Mehria Medical Society Pakistan
@@ -169,22 +195,16 @@
             </a></li>
         </ul>
       </div>
-      <div class="uk-navbar-right">
-        <ul class="uk-navbar-nav">
-          <li><a id="navBarSize" href="https://www.facebook.com/mehriasociety">
-              <h5 class="uk-margin-remove-vertical uk-padding-remove-vertical responsiveFontSize_4" id="theme-light-text">Facebook</h5>
-            </a></li>
-        </ul>
-      </div>
     </nav>
   </div>
 
   <!--GALLERY BELOW!-->
 
-  <div class="uk-section uk-background-cover uk-height-large uk-background-fixed" style="background-image: linear-gradient(to bottom right, rgba(0, 60, 20, 0.7), rgba(100, 10, 10, 0.7)),url(https://media.defense.gov/2016/Jun/10/2001552379/780/780/0/160610-F-GF928-018.JPG);
+  <div class="uk-section uk-background-cover uk-background-fixed" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 40, 10, 0.8), rgba(100, 10, 10, 0.4), rgba(0, 40, 10, 0.8), rgba(0, 0, 0, 1)),url(images/camp_1/c5.jpeg);
         background-blend-mode: normal;">
-    <h1 class="uk-heading-line uk-text-center responsiveFontSize_6" id="theme-light-text"><span>This page is under development.</span></h1>
-    </a>
+    <h1 class="uk-heading-line uk-text-center responsiveFontSize_6" id="theme-light-text" style="background-color: rgba(0, 20, 4, 0.9); padding: 0.4vw;"><span>First Medical Camp At Jhund</span></h1>
+    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmehriasociety%2Fposts%2F130115758459298&width=600&show_text=true&appId=1419983324758110&height=600" id="socialGalleryPerRowSize" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  </a>
   </div>
 
   <!--GALLERY ABOVE!-->
@@ -196,6 +216,8 @@
           <li class="responsiveFontSize_3"><a href="index.html" id="theme-light-text">Home
             </a></li>
           <li class="responsiveFontSize_3"><a href="about.html" id="theme-light-text">About
+            </a></li>
+          <li class="responsiveFontSize_3"><a href="gallery.html" id="theme-light-text">Gallery
             </a></li>
           <li class="responsiveFontSize_3"><a href="contact.html" id="theme-light-text">Contact
             </a></li>
@@ -210,9 +232,6 @@
         </ul>
       </div>
     </div>
-    <h5 class="uk-align-center uk-text-center uk-padding-large uk-padding-remove-vertical uk-margin-remove-bottom responsiveFontSize_3">
-      All Rights Reserved. &copy; 2019-2020 Mehria Medical Society Pakistan</h5>
-  </div>
 
 </body>
 
